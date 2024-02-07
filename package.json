@@ -1,0 +1,23 @@
+{
+  "name": "telegram-music-dowloader-bot",
+  "version": "1.0.0",
+  "description": "Node JS project that helps users to search for music, artists, albums and download it as MP3",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "https://github.com/yaasiin-ayeva",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.16",
+    "axios": "^1.6.7",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "ytdl-core": "^4.11.5"
+  }
+}
